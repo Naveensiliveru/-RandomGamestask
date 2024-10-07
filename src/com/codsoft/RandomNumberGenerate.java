@@ -23,19 +23,7 @@ public class RandomNumberGenerate {
 	            System.out.print("Do you want to play another round? (yes/no): ");
 	            playAgin = sc.next().toLowerCase();
 	        } while (playAgin.equals("yes"));
-
-		
-		
-		
-		
-		
-	
-
- 
- 
-      
-		 
-	}
+		  }
 
 	private static int playRound(Scanner sc) {
 		 Random random = new Random();
